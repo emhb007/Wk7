@@ -1,5 +1,6 @@
 class InsufficientSweetsException(Exception):
     """Custom exception example inheriting from Exception class"""
+
     def __init__(self, sweets):
         self.msg = f"Not enough sweets to eat {sweets} sweets!"
 
